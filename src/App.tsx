@@ -168,7 +168,8 @@ export const App = () => {
             style={{
                 width: '100%',
                 display: 'flex',
-                flexDirection: 'row'
+                flexDirection: 'row',
+                color: "#000000"
             }}
             contentEditable
             onInput={({target: {textContent}}: React.ChangeEvent<HTMLDivElement>) => setInput(textContent as string)}
